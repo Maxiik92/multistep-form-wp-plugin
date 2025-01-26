@@ -1,5 +1,5 @@
-import { resetProgressBars } from "./progressBar";
-import { moveStep } from "./navigation";
+import { resetProgressBars } from "./progressBar.js";
+import { moveStep } from "./navigation.js";
 
 export function submitForm(form, submitButton) {
   const formData = new FormData(form);
